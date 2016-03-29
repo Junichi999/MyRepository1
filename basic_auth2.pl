@@ -1,4 +1,7 @@
 #!/bin/perl
+#
+# comment line
+#
 use strict;
 use warnings;
 use XML::Simple;
@@ -13,7 +16,7 @@ my $domain="bengurion.makuhari.japan.ibm.com";
 my $port=52311;
 my $realm='IBM Endpoint Manager Server';
 my $user="fujino";
-my $pwd="password";
+my $pwd="********";
 my $url="http://".$domain.":".$port."/api/login";
 
 my $ua = LWP::UserAgent->new;
