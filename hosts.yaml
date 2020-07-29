@@ -1,0 +1,12 @@
+host001:
+  ansible_ip: 10.1.1.1
+  ipaddress: 10.1.1.1
+  ostype: aix
+host002:
+  ansible_ip: 10.1.1.2
+  ipaddress: 10.1.1.2
+  ostype: aix
+host003:
+  ansible_ip: 10.1.1.3
+  ipaddress: 10.1.1.3
+  ostype: linux

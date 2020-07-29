@@ -1,0 +1,12 @@
+pc001:
+  cpu: Z80
+  maker: NEC
+  name: PC-8801
+pc002:
+  cpu: MC68000
+  maker: SHARP
+  name: X68000
+pc003:
+  cpu: '8086'
+  maker: NEC
+  name: PC-9801

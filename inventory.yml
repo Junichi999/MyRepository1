@@ -1,0 +1,13 @@
+- 'all:'
+- hostname: host01
+  ipaddress: ' 10.1.1.1'
+  ostype: ' aix'
+- hostname: host02
+  ipaddress: ' 10.1.1.2'
+  ostype: ' aix'
+- hostname: host03
+  ipaddress: ' 10.1.1.3'
+  ostype: ' linux'
+- hostname: host04
+  ipaddress: ' 10.1.1.4'
+  ostype: ' windows'
