@@ -5,7 +5,7 @@
     when: ansible_distribution == 'AIX'
     block:
     - aix_filesystem: { filesystem: "/",     size: "1G" }
-    - aix_filesystem: { filesystem: "/var",  size: "2G" }
+    - aix_filesystem: { filesystem: "/var",  size: "5G" }
     - aix_filesystem: { filesystem: "/usr",  size: "4G" }
     - aix_filesystem: { filesystem: "/home", size: "4G" }
 
