@@ -1,15 +1,15 @@
 - hosts: all
   tasks:
-# change filesystem
+  # change filesystem
   -
     when: ansible_distribution == 'AIX'
     block:
     - aix_filesystem: { filesystem: "/",     size: "1G" }
     - aix_filesystem: { filesystem: "/var",  size: "2G" }
     - aix_filesystem: { filesystem: "/usr",  size: "4G" }
-    - aix_filesystem: { filesystem: "/home", size: "3G" }
+    - aix_filesystem: { filesystem: "/home", size: "4G" }
 
-# create mksysb
+    # create mksysb
     - name: Running a backup image mksysb
       mksysb:
         name: ansibletest_mksysb
