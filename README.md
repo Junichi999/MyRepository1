@@ -38,4 +38,4 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 ### GitHub Pageテスト
  
- これはGitHub Pageのテストです
+これはGitHub Pageのテストです
